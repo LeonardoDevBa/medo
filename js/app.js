@@ -23,13 +23,13 @@ function iniciarPerguntas() {
     
     medoBtn.addEventListener('click', () => {
         if (medoInput.value.trim() === '') {
-            document.body.style.backgroundImage = "url('https://github.com/LeonardoDevBa/medo/blob/main/files/nome.gif')";
+            document.body.style.backgroundImage = "url('https://LeonardoDevBa.github.io/medo/files/nome.gif')";
             document.body.style.backgroundSize = "cover";
             document.body.style.backgroundRepeat = "no-repeat";
             resp.innerHTML = '<p style="color: red;">Por favor, responda à pergunta.</p>';
         } else {
             const medoUsuario = medoInput.value.charAt(0).toUpperCase() + medoInput.value.slice(1);
-            document.body.style.backgroundImage = "url('https://github.com/LeonardoDevBa/medo/blob/main/files/medo.gif')";
+            document.body.style.backgroundImage = "url('https://LeonardoDevBa.github.io/medo/files/medo.gif')";
             document.body.style.backgroundSize = "cover";
             document.body.style.backgroundRepeat = "no-repeat";
             resp.innerHTML = `<p style="color: gray;">Então ${nome.value}, estamos indo atrás de você junto com seu maior medo, agora eu e o ${medoUsuario} somos amigos, e vamos te pegar!.</p>`;

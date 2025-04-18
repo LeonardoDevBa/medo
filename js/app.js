@@ -23,7 +23,7 @@ function iniciarPerguntas() {
     
     medoBtn.addEventListener('click', () => {
         if (medoInput.value.trim() === '') {
-            document.body.style.backgroundImage = "url('files/𝐀𝐋𝐈𝐀𝐒 Ꮠ 𝕲𝐫𝐚𝐩𝐡𝐢𝐜 𝕻𝐨𝐫𝐭𝐟𝐨𝐥𝐢𝐨.gif')";
+            document.body.style.backgroundImage = "url('https://github.com/LeonardoDevBa/medo/blob/main/files/%F0%9D%90%80%F0%9D%90%8B%F0%9D%90%88%F0%9D%90%80%F0%9D%90%92%20%E1%8F%90%20%F0%9D%95%B2%F0%9D%90%AB%F0%9D%90%9A%F0%9D%90%A9%F0%9D%90%A1%F0%9D%90%A2%F0%9D%90%9C%20%F0%9D%95%BB%F0%9D%90%A8%F0%9D%90%AB%F0%9D%90%AD%F0%9D%90%9F%F0%9D%90%A8%F0%9D%90%A5%F0%9D%90%A2%F0%9D%90%A8.gif')";
             document.body.style.backgroundSize = "cover";
             document.body.style.backgroundRepeat = "no-repeat";
             resp.innerHTML = '<p style="color: red;">Por favor, responda à pergunta.</p>';

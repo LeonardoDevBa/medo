@@ -1,12 +1,11 @@
-/* Estilos do corpo */
 body {
-    background: url('https://LeonardoDevBa.github.io/medo/files/floresta.gif');
+    background: url('https://LeonardoDevBa.github.io/medo/files/floresta.gif') no-repeat center center fixed;
+    background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    min-height: 100vh;
     margin: 0;
-    background-size: cover;
     flex-direction: column;
     font-family: 'Arial', sans-serif;
 }
@@ -25,7 +24,8 @@ body {
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0);
 }
 
-#principal input, #principal button {
+#principal input,
+#principal button {
     padding: 10px;
     border-radius: 5px;
     border: none;
@@ -52,29 +52,30 @@ body {
     transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 
-#principal button:hover, #principal input:focus {
+#principal button:hover,
+#principal input:focus {
     background-color: rgba(255, 255, 255, 0.4);
     color: #000;
     outline: none;
 }
+
 #resp {
     justify-content: center;
-    margin-top: 5px; /* Reduzido para aproximar do botão */
-    font-size: 14px; /* Um pouco menor para harmonia visual */
+    margin-top: 5px;
+    font-size: 14px;
     font-weight: bold;
     color: #000;
     text-align: center;
 }
+
 #resp p {
-    margin: 0; /* Remove a margem padrão do parágrafo */
-    padding: 0; /* Remove o preenchimento padrão do parágrafo */
+    margin: 0;
+    padding: 0;
 }
 
 @media (max-width: 768px) {
-    body {
-        background-size: contain;
-    }
-    #principal input, #principal button {
+    #principal input,
+    #principal button {
         width: 90%;
         font-size: 14px;
     }
